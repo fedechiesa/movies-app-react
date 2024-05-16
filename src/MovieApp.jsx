@@ -3,7 +3,7 @@ import "./MovieApp.css";
 
 export const MovieApp = () => {
   const urlBase = "https://api.themoviedb.org/3/search/movie?";
-  const API_KEY = 'b56c3072ea203b3c2070acc2fce09c82';
+  const API_KEY = 'YOUR_API_KEY';
 
   const [search, setSearch] = useState('');
   const [moviesList, setMoviesList] = useState([]);
